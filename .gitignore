@@ -36,3 +36,10 @@ next-env.d.ts
 # IDE
 .idea
 .vscode
+
+# Terraform
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform/
+.terraform.lock.hcl
