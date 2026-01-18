@@ -6,9 +6,11 @@
   --bg-deep: #0a0a0f;
   --bg-surface: #12121a;
   --bg-elevated: #1a1a24;
-  --accent-cyan: #00f0ff;
-  --accent-green: #39ff14;
-  --accent-warm: #ff6b35;
+  /* Boosted brand colors - vibrant versions */
+  --accent-cyan: #00E5C0;
+  --accent-green: #00FF94;
+  --accent-purple: #7B7FE8;
+  --accent-rhino: #283059;
   --text-primary: #e8e8e8;
   --text-muted: #6b7280;
 }
@@ -24,7 +26,7 @@
   }
 
   ::selection {
-    background: rgba(0, 240, 255, 0.3);
+    background: rgba(0, 229, 192, 0.3);
     color: white;
   }
 }
@@ -45,20 +47,24 @@
     background-clip: text;
   }
 
-  /* Glow effects */
+  /* Glow effects - boosted brand colors */
   .glow-cyan {
-    box-shadow: 0 0 60px rgba(0, 240, 255, 0.2), 0 0 100px rgba(0, 240, 255, 0.1);
+    box-shadow: 0 0 60px rgba(0, 229, 192, 0.2), 0 0 100px rgba(0, 229, 192, 0.1);
   }
 
   .glow-green {
-    box-shadow: 0 0 60px rgba(57, 255, 20, 0.2), 0 0 100px rgba(57, 255, 20, 0.1);
+    box-shadow: 0 0 60px rgba(0, 255, 148, 0.2), 0 0 100px rgba(0, 255, 148, 0.1);
+  }
+
+  .glow-purple {
+    box-shadow: 0 0 60px rgba(123, 127, 232, 0.2), 0 0 100px rgba(123, 127, 232, 0.1);
   }
 
   /* Grid background pattern */
   .bg-grid {
     background-image:
-      linear-gradient(to right, rgba(0, 240, 255, 0.04) 1px, transparent 1px),
-      linear-gradient(to bottom, rgba(0, 240, 255, 0.04) 1px, transparent 1px);
+      linear-gradient(to right, rgba(0, 229, 192, 0.04) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(0, 229, 192, 0.04) 1px, transparent 1px);
     background-size: 60px 60px;
   }
 
@@ -131,7 +137,7 @@
   /* Monospace accent text */
   .mono-accent {
     @apply font-mono text-accent-cyan;
-    text-shadow: 0 0 10px rgba(0, 240, 255, 0.5);
+    text-shadow: 0 0 10px rgba(0, 229, 192, 0.5);
   }
 }
 
