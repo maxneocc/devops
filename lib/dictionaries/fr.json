@@ -1,0 +1,394 @@
+{
+  "metadata": {
+    "title": "NEO Cyber Camp - Formation Cybersécurité en Ligne",
+    "description": "Plateforme tout-en-un pour apprendre la cybersécurité : cours vidéo, labs pratiques, certifications. 100% en ligne, accessible 24/7."
+  },
+  "nav": {
+    "formations": "Formations",
+    "solutions": "Solutions",
+    "plateforme": "Plateforme",
+    "blog": "Blog",
+    "login": "Connexion",
+    "contact": "Contact"
+  },
+  "hero": {
+    "tagline": "> neo_platform.init()",
+    "title1": "Formez-vous à la",
+    "title2": "cyber",
+    "title3": "sécurité",
+    "subtitle": "Plateforme tout-en-un : cours vidéo, labs pratiques, certifications.",
+    "subtitle2": "100% en ligne, accessible 24/7.",
+    "cta_individual": "Je suis un individu",
+    "cta_organization": "Je suis une organisation",
+    "stats": {
+      "labs": "Accès aux labs",
+      "courses": "Cours vidéo",
+      "certifications": "Certifications"
+    },
+    "scroll": "DÉFILER"
+  },
+  "partners": {
+    "tag": "[PARTENAIRES]",
+    "title": "Ils nous font confiance"
+  },
+  "offerings": {
+    "tag": "[CE QU'ON PROPOSE]",
+    "title": "Une plateforme",
+    "titleHighlight": "complète",
+    "title2": "",
+    "items": {
+      "formations": {
+        "title": "Formations",
+        "description": "Cours vidéo structurés par des experts",
+        "features": ["100% en ligne", "À votre rythme", "HD sous-titré"]
+      },
+      "labs": {
+        "title": "Labs pratiques",
+        "description": "VMs à la demande avec correction auto",
+        "features": ["Réseaux isolés", "Environnements réels", "Feedback instantané"]
+      },
+      "certifications": {
+        "title": "Certifications",
+        "description": "Partenariats officiels ISC2, Stormshield, LPI",
+        "features": ["Tarifs négociés", "Incluses ou en option", "Reconnues mondialement"]
+      }
+    }
+  },
+  "whyNeo": {
+    "tag": "[POURQUOI NEO]",
+    "title": "Ce qui nous",
+    "titleHighlight": "différencie",
+    "description": "NEO combine l'expertise technique en cybersécurité avec la capacité de créer du contenu pédagogique de qualité. Une combinaison rare sur le marché.",
+    "cta": "En savoir plus sur nos solutions",
+    "items": [
+      { "title": "100% en ligne", "description": "Asynchrone, 24/7, depuis n'importe où" },
+      { "title": "Experts cyber ET créateurs", "description": "Nos formateurs sont des professionnels du terrain et des créateurs de contenu" },
+      { "title": "Diplômes reconnus", "description": "RNCP + certifications partenaires officiels" },
+      { "title": "Plateforme intégrée", "description": "Pas de setup local, tout dans le navigateur" },
+      { "title": "Hébergé en UE", "description": "Données souveraines, RGPD compliant" }
+    ]
+  },
+  "training": {
+    "tag": "[FORMATIONS]",
+    "title": "Nos",
+    "titleHighlight": "formations",
+    "subtitle": "Parcours certifiants conçus avec nos partenaires officiels",
+    "cta": "Voir toutes les formations",
+    "certification": "Certification"
+  },
+  "b2b": {
+    "tag": "[ORGANISATIONS]",
+    "title1": "Vous êtes une",
+    "titleHighlight1": "entreprise",
+    "title2": "ou une",
+    "titleHighlight2": "école",
+    "items": [
+      { "title": "Formez vos équipes", "description": "Accès à notre catalogue de cours pour vos collaborateurs" },
+      { "title": "Utilisez nos cours", "description": "Intégrez nos modules dans vos programmes existants" },
+      { "title": "Créez vos modules", "description": "Production de contenu sur mesure avec nos experts" }
+    ],
+    "cta": "Découvrir nos solutions B2B"
+  },
+  "finalCta": {
+    "title": "Prêt à",
+    "titleHighlight": "commencer",
+    "subtitle": "Que vous soyez un individu ou une organisation, nous avons une solution adaptée à vos besoins.",
+    "cta1": "Voir les formations",
+    "cta2": "Nous contacter",
+    "trust": {
+      "eu": "Hébergé en Europe",
+      "gdpr": "RGPD compliant",
+      "partners": "Partenaires certifiés"
+    }
+  },
+  "footer": {
+    "description": "Plateforme de formation en cybersécurité. 100% en ligne, accessible 24/7.",
+    "navigation": "Navigation",
+    "legal": "Légal",
+    "contact": "Contact",
+    "contactCta": "Nous contacter",
+    "copyright": "Tous droits réservés",
+    "legalLinks": {
+      "mentions": "Mentions légales",
+      "cgv": "CGV",
+      "cgu": "CGU",
+      "privacy": "Confidentialité"
+    }
+  },
+  "solutions": {
+    "breadcrumb": "Solutions",
+    "hero": {
+      "tag": "[SOLUTIONS B2B]",
+      "title": "La solution complète pour",
+      "titleHighlight": "former",
+      "title2": "en cybersécurité",
+      "subtitle": "Que vous soyez une entreprise souhaitant former vos équipes ou une école cherchant à enrichir votre programme, nous avons la solution adaptée.",
+      "cta1": "Former mes équipes",
+      "cta2": "Je suis une école"
+    },
+    "nav": {
+      "why": "Pourquoi nous",
+      "courses": "Cours existants",
+      "custom": "Création sur mesure",
+      "platform": "Plateforme",
+      "certifications": "Certifications",
+      "evaluation": "Évaluation",
+      "space": "Espace dédié"
+    },
+    "section1": {
+      "tag": "[01 - POURQUOI NOUS]",
+      "title": "Notre",
+      "titleHighlight": "différence",
+      "subtitle": "NEO combine l'expertise technique en cybersécurité avec la capacité de créer du contenu pédagogique de qualité. Une combinaison rare sur le marché.",
+      "items": [
+        { "title": "Experts techniques ET pédagogiques", "desc": "Contrairement aux studios (pas de compétences cyber) ou aux boîtes tech (pas de compétences création)" },
+        { "title": "Rapidité d'exécution", "desc": "Production de contenu de qualité dans des délais maîtrisés" },
+        { "title": "Partenariats officiels", "desc": "ISC², Stormshield, LPI, Scaleway - certifications reconnues" },
+        { "title": "Hébergement souverain", "desc": "Données hébergées en Europe, RGPD compliant" }
+      ]
+    },
+    "section2": {
+      "tag": "[02 - COURS EXISTANTS]",
+      "title": "Utilisez nos",
+      "titleHighlight": "cours",
+      "subtitle": "Accédez à notre catalogue de formations certifiantes pour vos équipes ou vos étudiants.",
+      "items": [
+        { "title": "Modules prêts", "desc": "Cours vidéo, exercices, évaluations - tout est inclus" },
+        { "title": "Licence flexible", "desc": "Par classe ou par étudiant, selon vos besoins" },
+        { "title": "Suivi intégré", "desc": "Dashboard de progression pour chaque apprenant" }
+      ],
+      "cta": "Voir le catalogue"
+    },
+    "section3": {
+      "tag": "[03 - CRÉATION SUR MESURE]",
+      "title": "Créez vos propres",
+      "titleHighlight": "modules",
+      "subtitle": "Deux options selon vos ressources et vos besoins",
+      "optionA": {
+        "tag": "[OPTION A]",
+        "title": "Avec nos formateurs",
+        "subtitle": "Vous fournissez le syllabus, on gère tout :",
+        "items": ["Script et scénarisation", "Enregistrement HD", "Montage professionnel", "Exercices et projets"]
+      },
+      "optionB": {
+        "tag": "[OPTION B]",
+        "title": "Avec vos formateurs",
+        "subtitle": "On vous accompagne de A à Z :",
+        "items": ["Formation au process", "Préparation du contenu", "Studio d'enregistrement", "Post-production complète"]
+      },
+      "deliverables": "Livrables : Hébergement sur NEO (plateforme complète) ou livrables seuls (vous gérez)"
+    },
+    "section4": {
+      "tag": "[04 - PLATEFORME]",
+      "title": "Plateforme",
+      "titleHighlight": "technique",
+      "items": [
+        { "title": "VMs à la demande", "desc": "Templates personnalisables, déploiement en 1 clic" },
+        { "title": "Réseaux isolés", "desc": "Chaque étudiant a son environnement sécurisé" },
+        { "title": "Environnements auto", "desc": "Configurations automatisées reproductibles" },
+        { "title": "Correction Ansible", "desc": "Vérification automatique des configurations" },
+        { "title": "Correction vidéo", "desc": "Solutions expliquées en détail" },
+        { "title": "Multi-device", "desc": "Accessible desktop, tablet, mobile" }
+      ]
+    },
+    "section5": {
+      "tag": "[05 - CERTIFICATIONS]",
+      "title": "Partenaires",
+      "titleHighlight": "officiels",
+      "subtitle": "Tarifs négociés grâce à nos partenariats, intégrés au process de formation."
+    },
+    "section6": {
+      "tag": "[06 - ÉVALUATION]",
+      "title": "Système d'",
+      "titleHighlight": "évaluation",
+      "items": [
+        { "title": "QCM intégrés", "desc": "Évaluations automatiques tout au long du parcours" },
+        { "title": "Projets longs", "desc": "Mises en situation sur plusieurs jours" },
+        { "title": "Vérification asynchrone", "desc": "Analyse des rapports et configurations" },
+        { "title": "Soutenances en ligne", "desc": "Avec évaluateurs NEO ou vos équipes" }
+      ]
+    },
+    "section7": {
+      "tag": "[07 - ESPACE DÉDIÉ]",
+      "title": "Votre",
+      "titleHighlight": "espace",
+      "subtitle": "Un espace administration dédié pour gérer vos équipes et suivre leur progression.",
+      "items": ["Administrateurs multiples", "Gestion des étudiants", "Filtres par classes", "Reporting progression"],
+      "coming": "À venir : branding personnalisé (white-label)"
+    },
+    "finalCta": {
+      "title": "Discutons de votre",
+      "titleHighlight": "projet",
+      "subtitle": "Contactez-nous pour discuter de vos besoins et obtenir un devis personnalisé.",
+      "cta": "Demander un devis"
+    }
+  },
+  "contact": {
+    "breadcrumb": "Contact",
+    "tag": "[CONTACT]",
+    "title1": "Une",
+    "titleHighlight1": "question",
+    "title2": "Un",
+    "titleHighlight2": "projet",
+    "subtitle": "Nous sommes là pour vous accompagner dans votre projet de formation en cybersécurité.",
+    "formTitle": "Formulaire de contact",
+    "formSubtitle": "Remplissez notre formulaire et nous vous répondrons rapidement.",
+    "formCta": "Ouvrir le formulaire",
+    "email": "[EMAIL]",
+    "address": "[ADRESSE]",
+    "social": "[RÉSEAUX]"
+  },
+  "formations": {
+    "breadcrumb": "Formations",
+    "tag": "[CATALOGUE]",
+    "title": "Nos",
+    "titleHighlight": "formations",
+    "subtitle": "Cours, certifications et parcours diplômants en cybersécurité. 100% en ligne, à votre rythme.",
+    "comingSoon": {
+      "tag": "[EN CONSTRUCTION]",
+      "text": "Le catalogue complet arrive bientôt. Contactez-nous pour plus d'informations."
+    }
+  },
+  "platform": {
+    "breadcrumb": "Plateforme",
+    "tag": "[PLATEFORME]",
+    "title": "Une plateforme pensée pour",
+    "titleHighlight": "apprendre",
+    "title2": "en pratiquant",
+    "subtitle": "Tout ce dont vous avez besoin pour maîtriser la cybersécurité, accessible depuis votre navigateur.",
+    "features": [
+      { "title": "Cours vidéo", "desc": "HD, chapitrés, sous-titrés. Apprenez à votre rythme." },
+      { "title": "Labs à la demande", "desc": "VMs générées en 1 clic, environnements réalistes." },
+      { "title": "Correction auto", "desc": "Ansible vérifie vos configurations en temps réel." },
+      { "title": "Réseaux isolés", "desc": "Chaque étudiant a son propre environnement sécurisé." },
+      { "title": "QCM & évaluations", "desc": "Intégrés au parcours pour valider vos acquis." },
+      { "title": "Certifications", "desc": "Préparation aux certifications officielles incluse." },
+      { "title": "Progression", "desc": "Suivi détaillé de votre avancée et statistiques." },
+      { "title": "Multi-device", "desc": "Desktop, tablet, mobile - apprenez partout." },
+      { "title": "Support", "desc": "Communauté, forums et accompagnement expert." }
+    ],
+    "cta1": "Voir les formations",
+    "cta2": "Demander une démo"
+  },
+  "blog": {
+    "breadcrumb": "Blog",
+    "tag": "[BLOG]",
+    "title": "Blog &",
+    "titleHighlight": "Ressources",
+    "subtitle": "Actualités cybersécurité, guides, tutoriels et conseils carrière.",
+    "comingSoon": {
+      "tag": "[EN CONSTRUCTION]",
+      "title": "Le blog arrive bientôt",
+      "text": "Nous préparons des articles de qualité sur la cybersécurité, les certifications et les parcours de carrière."
+    }
+  },
+  "legal": {
+    "mentions": {
+      "breadcrumb": "Mentions légales",
+      "title": "Mentions",
+      "titleHighlight": "légales",
+      "sections": {
+        "editor": {
+          "title": "1. Éditeur du site",
+          "content": "NEO Cyber Camp\nParis, France\nEmail : contact@neocc.co\n\n[Informations complémentaires à ajouter : SIRET, capital social, etc.]"
+        },
+        "hosting": {
+          "title": "2. Hébergement",
+          "content": "Le site est hébergé par :\n[Informations hébergeur à ajouter]"
+        },
+        "ip": {
+          "title": "3. Propriété intellectuelle",
+          "content": "L'ensemble du contenu de ce site (textes, images, vidéos, logos, etc.) est protégé par le droit d'auteur. Toute reproduction, même partielle, est interdite sans autorisation préalable."
+        },
+        "data": {
+          "title": "4. Protection des données",
+          "content": "Conformément à la loi « Informatique et Libertés » du 6 janvier 1978 modifiée et au Règlement Général sur la Protection des Données (RGPD), vous disposez d'un droit d'accès, de rectification et de suppression de vos données personnelles.\n\nPour exercer ce droit, contactez-nous à : contact@neocc.co"
+        },
+        "cookies": {
+          "title": "5. Cookies",
+          "content": "Ce site utilise des cookies pour améliorer l'expérience utilisateur et mesurer l'audience. Pour en savoir plus, consultez notre politique de confidentialité."
+        }
+      }
+    },
+    "cgv": {
+      "breadcrumb": "CGV",
+      "title": "Conditions Générales de",
+      "titleHighlight": "Vente",
+      "placeholder": "[Contenu complet des CGV à finaliser par l'équipe juridique]",
+      "sections": {
+        "object": { "title": "Article 1 - Objet", "content": "Les présentes Conditions Générales de Vente régissent les relations contractuelles entre NEO Cyber Camp et ses clients dans le cadre de la vente de formations en ligne et de services associés." },
+        "price": { "title": "Article 2 - Prix", "content": "Les prix des formations sont indiqués en euros hors taxes (HT). La TVA applicable sera ajoutée au moment de la commande." },
+        "payment": { "title": "Article 3 - Modalités de paiement", "content": "Le paiement s'effectue par carte bancaire ou virement. L'accès aux formations est ouvert après réception du paiement intégral." },
+        "withdrawal": { "title": "Article 4 - Droit de rétractation", "content": "Conformément à l'article L221-28 du Code de la consommation, le droit de rétractation ne peut pas être exercé pour les contenus numériques fournis sur un support immatériel dont l'exécution a commencé avec l'accord du consommateur." },
+        "access": { "title": "Article 5 - Accès aux formations", "content": "L'accès aux formations est personnel et non cessible. Il est interdit de partager ses identifiants de connexion. La durée d'accès est précisée pour chaque formation." },
+        "liability": { "title": "Article 6 - Responsabilité", "content": "NEO Cyber Camp s'engage à fournir des formations de qualité. Toutefois, la réussite aux certifications ne peut être garantie et dépend de l'investissement personnel de l'apprenant." }
+      }
+    },
+    "cgu": {
+      "breadcrumb": "CGU",
+      "title": "Conditions Générales d'",
+      "titleHighlight": "Utilisation",
+      "placeholder": "[Contenu complet des CGU à finaliser par l'équipe juridique]",
+      "sections": {
+        "object": { "title": "Article 1 - Objet", "content": "Les présentes Conditions Générales d'Utilisation définissent les règles d'utilisation de la plateforme NEO Cyber Camp accessible à l'adresse app.neocc.co." },
+        "access": { "title": "Article 2 - Accès à la plateforme", "content": "L'accès à la plateforme nécessite la création d'un compte utilisateur. L'utilisateur s'engage à fournir des informations exactes et à les maintenir à jour." },
+        "labs": { "title": "Article 3 - Utilisation des labs", "content": "Les environnements virtuels (labs) mis à disposition sont destinés exclusivement à des fins pédagogiques. Toute utilisation malveillante ou tentative d'accès non autorisé est strictement interdite." },
+        "ip": { "title": "Article 4 - Propriété intellectuelle", "content": "Les contenus de formation (vidéos, documents, exercices) sont protégés par le droit d'auteur. Leur reproduction, distribution ou modification sans autorisation est interdite." },
+        "behavior": { "title": "Article 5 - Comportement", "content": "L'utilisateur s'engage à utiliser la plateforme de manière respectueuse et à ne pas perturber son fonctionnement ou l'expérience des autres utilisateurs." },
+        "sanctions": { "title": "Article 6 - Sanctions", "content": "Tout manquement aux présentes CGU peut entraîner la suspension ou la suppression du compte utilisateur, sans préjudice des éventuelles poursuites judiciaires." }
+      }
+    },
+    "privacy": {
+      "breadcrumb": "Confidentialité",
+      "title": "Politique de",
+      "titleHighlight": "confidentialité",
+      "lastUpdate": "Dernière mise à jour : Janvier 2025",
+      "sections": {
+        "collection": {
+          "title": "1. Collecte des données",
+          "content": "Nous collectons les données nécessaires à la fourniture de nos services de formation : nom, prénom, email, données de progression dans les cours."
+        },
+        "usage": {
+          "title": "2. Utilisation des données",
+          "intro": "Vos données sont utilisées pour :",
+          "items": [
+            "Gérer votre compte et accès aux formations",
+            "Suivre votre progression pédagogique",
+            "Vous informer des nouveautés (si vous y avez consenti)",
+            "Améliorer nos services"
+          ]
+        },
+        "protection": {
+          "title": "3. Protection des données",
+          "content": "Vos données sont hébergées en Europe sur des serveurs sécurisés. Nous appliquons les mesures de sécurité appropriées pour protéger vos informations."
+        },
+        "sharing": {
+          "title": "4. Partage des données",
+          "intro": "Nous ne vendons pas vos données. Elles peuvent être partagées avec :",
+          "items": [
+            "Nos partenaires de certification (pour le passage des examens)",
+            "Votre employeur (si formation B2B, avec votre accord)"
+          ]
+        },
+        "rights": {
+          "title": "5. Vos droits",
+          "content": "Conformément au RGPD, vous disposez des droits suivants : accès, rectification, effacement, portabilité, opposition, limitation du traitement.",
+          "contact": "Pour exercer ces droits :"
+        },
+        "cookies": {
+          "title": "6. Cookies",
+          "content": "Nous utilisons des cookies essentiels au fonctionnement du site et des cookies d'analyse (Google Analytics) pour comprendre l'utilisation de nos services."
+        },
+        "contactTitle": {
+          "title": "7. Contact",
+          "content": "Pour toute question relative à cette politique de confidentialité :"
+        }
+      }
+    }
+  },
+  "common": {
+    "home": "Accueil",
+    "readyToStart": "Prêt à",
+    "start": "commencer"
+  }
+}

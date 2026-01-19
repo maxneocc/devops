@@ -7,29 +7,29 @@ const bebasNeue = Bebas_Neue({
   subsets: ['latin'],
   variable: '--font-bebas',
   display: 'swap',
+  preload: true,
 });
 
 const sora = Sora({
   subsets: ['latin'],
   variable: '--font-sora',
   display: 'swap',
+  preload: true,
 });
 
 const jetbrainsMono = JetBrains_Mono({
   subsets: ['latin'],
   variable: '--font-jetbrains',
   display: 'swap',
+  preload: true,
 });
 
 export const metadata: Metadata = {
-  title: 'NEO Cyber Camp - Become a Cybersecurity Professional',
-  description: 'An all-in-one platform to learn and practice cybersecurity, available 24/7 with just an internet connection. Start your direct path to a cybersecurity career.',
-  keywords: ['cybersecurity', 'training', 'certification', 'online learning', 'cyber camp'],
-  openGraph: {
-    title: 'NEO Cyber Camp - Become a Cybersecurity Professional',
-    description: 'An all-in-one platform to learn and practice cybersecurity, available 24/7.',
-    type: 'website',
+  title: {
+    default: 'NEO Cyber Camp',
+    template: '%s | NEO Cyber Camp',
   },
+  metadataBase: new URL('https://neocc.co'),
 };
 
 export default function RootLayout({
@@ -38,7 +38,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${bebasNeue.variable} ${sora.variable} ${jetbrainsMono.variable}`}>
+    <html className={`${bebasNeue.variable} ${sora.variable} ${jetbrainsMono.variable}`}>
       <body className="font-body">{children}</body>
     </html>
   );

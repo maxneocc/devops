@@ -1,0 +1,394 @@
+{
+  "metadata": {
+    "title": "NEO Cyber Camp - Online Cybersecurity Training",
+    "description": "All-in-one platform to learn cybersecurity: video courses, hands-on labs, certifications. 100% online, available 24/7."
+  },
+  "nav": {
+    "formations": "Courses",
+    "solutions": "Solutions",
+    "plateforme": "Platform",
+    "blog": "Blog",
+    "login": "Login",
+    "contact": "Contact"
+  },
+  "hero": {
+    "tagline": "> neo_platform.init()",
+    "title1": "Master",
+    "title2": "cyber",
+    "title3": "security",
+    "subtitle": "All-in-one platform: video courses, hands-on labs, certifications.",
+    "subtitle2": "100% online, available 24/7.",
+    "cta_individual": "I'm an individual",
+    "cta_organization": "I'm an organization",
+    "stats": {
+      "labs": "Lab access",
+      "courses": "Video courses",
+      "certifications": "Certifications"
+    },
+    "scroll": "SCROLL"
+  },
+  "partners": {
+    "tag": "[PARTNERS]",
+    "title": "Trusted by"
+  },
+  "offerings": {
+    "tag": "[WHAT WE OFFER]",
+    "title": "A",
+    "titleHighlight": "complete",
+    "title2": "platform",
+    "items": {
+      "formations": {
+        "title": "Courses",
+        "description": "Expert-led structured video courses",
+        "features": ["100% online", "Self-paced", "HD with subtitles"]
+      },
+      "labs": {
+        "title": "Hands-on Labs",
+        "description": "On-demand VMs with auto-grading",
+        "features": ["Isolated networks", "Real environments", "Instant feedback"]
+      },
+      "certifications": {
+        "title": "Certifications",
+        "description": "Official ISC2, Stormshield, LPI partnerships",
+        "features": ["Negotiated rates", "Included or optional", "Globally recognized"]
+      }
+    }
+  },
+  "whyNeo": {
+    "tag": "[WHY NEO]",
+    "title": "What makes us",
+    "titleHighlight": "different",
+    "description": "NEO combines technical cybersecurity expertise with the ability to create quality educational content. A rare combination in the market.",
+    "cta": "Learn more about our solutions",
+    "items": [
+      { "title": "100% online", "description": "Asynchronous, 24/7, from anywhere" },
+      { "title": "Cyber experts AND creators", "description": "Our instructors are field professionals and content creators" },
+      { "title": "Recognized degrees", "description": "RNCP + official partner certifications" },
+      { "title": "Integrated platform", "description": "No local setup, everything in the browser" },
+      { "title": "EU hosted", "description": "Sovereign data, GDPR compliant" }
+    ]
+  },
+  "training": {
+    "tag": "[COURSES]",
+    "title": "Our",
+    "titleHighlight": "courses",
+    "subtitle": "Certification tracks designed with our official partners",
+    "cta": "View all courses",
+    "certification": "Certification"
+  },
+  "b2b": {
+    "tag": "[ORGANIZATIONS]",
+    "title1": "Are you a",
+    "titleHighlight1": "company",
+    "title2": "or a",
+    "titleHighlight2": "school",
+    "items": [
+      { "title": "Train your teams", "description": "Access to our course catalog for your employees" },
+      { "title": "Use our courses", "description": "Integrate our modules into your existing programs" },
+      { "title": "Create your modules", "description": "Custom content production with our experts" }
+    ],
+    "cta": "Discover our B2B solutions"
+  },
+  "finalCta": {
+    "title": "Ready to",
+    "titleHighlight": "start",
+    "subtitle": "Whether you're an individual or an organization, we have a solution tailored to your needs.",
+    "cta1": "View courses",
+    "cta2": "Contact us",
+    "trust": {
+      "eu": "Hosted in Europe",
+      "gdpr": "GDPR compliant",
+      "partners": "Certified partners"
+    }
+  },
+  "footer": {
+    "description": "Cybersecurity training platform. 100% online, available 24/7.",
+    "navigation": "Navigation",
+    "legal": "Legal",
+    "contact": "Contact",
+    "contactCta": "Contact us",
+    "copyright": "All rights reserved",
+    "legalLinks": {
+      "mentions": "Legal Notice",
+      "cgv": "Terms of Sale",
+      "cgu": "Terms of Use",
+      "privacy": "Privacy Policy"
+    }
+  },
+  "solutions": {
+    "breadcrumb": "Solutions",
+    "hero": {
+      "tag": "[B2B SOLUTIONS]",
+      "title": "The complete solution for",
+      "titleHighlight": "cybersecurity",
+      "title2": "training",
+      "subtitle": "Whether you're a company looking to train your teams or a school looking to enrich your program, we have the right solution.",
+      "cta1": "Train my teams",
+      "cta2": "I'm a school"
+    },
+    "nav": {
+      "why": "Why us",
+      "courses": "Existing courses",
+      "custom": "Custom creation",
+      "platform": "Platform",
+      "certifications": "Certifications",
+      "evaluation": "Evaluation",
+      "space": "Dedicated space"
+    },
+    "section1": {
+      "tag": "[01 - WHY US]",
+      "title": "Our",
+      "titleHighlight": "difference",
+      "subtitle": "NEO combines technical cybersecurity expertise with the ability to create quality educational content. A rare combination in the market.",
+      "items": [
+        { "title": "Technical AND educational experts", "desc": "Unlike studios (no cyber skills) or tech companies (no content creation skills)" },
+        { "title": "Fast execution", "desc": "Quality content production within controlled timelines" },
+        { "title": "Official partnerships", "desc": "ISC², Stormshield, LPI, Scaleway - recognized certifications" },
+        { "title": "Sovereign hosting", "desc": "Data hosted in Europe, GDPR compliant" }
+      ]
+    },
+    "section2": {
+      "tag": "[02 - EXISTING COURSES]",
+      "title": "Use our",
+      "titleHighlight": "courses",
+      "subtitle": "Access our catalog of certification courses for your teams or students.",
+      "items": [
+        { "title": "Ready modules", "desc": "Video courses, exercises, assessments - everything included" },
+        { "title": "Flexible licensing", "desc": "Per class or per student, according to your needs" },
+        { "title": "Integrated tracking", "desc": "Progress dashboard for each learner" }
+      ],
+      "cta": "View catalog"
+    },
+    "section3": {
+      "tag": "[03 - CUSTOM CREATION]",
+      "title": "Create your own",
+      "titleHighlight": "modules",
+      "subtitle": "Two options based on your resources and needs",
+      "optionA": {
+        "tag": "[OPTION A]",
+        "title": "With our instructors",
+        "subtitle": "You provide the syllabus, we handle everything:",
+        "items": ["Script and scenario", "HD recording", "Professional editing", "Exercises and projects"]
+      },
+      "optionB": {
+        "tag": "[OPTION B]",
+        "title": "With your instructors",
+        "subtitle": "We support you from A to Z:",
+        "items": ["Process training", "Content preparation", "Recording studio", "Full post-production"]
+      },
+      "deliverables": "Deliverables: Hosting on NEO (complete platform) or standalone deliverables (you manage)"
+    },
+    "section4": {
+      "tag": "[04 - PLATFORM]",
+      "title": "Technical",
+      "titleHighlight": "platform",
+      "items": [
+        { "title": "On-demand VMs", "desc": "Customizable templates, 1-click deployment" },
+        { "title": "Isolated networks", "desc": "Each student has their own secure environment" },
+        { "title": "Auto environments", "desc": "Reproducible automated configurations" },
+        { "title": "Ansible grading", "desc": "Automatic configuration verification" },
+        { "title": "Video solutions", "desc": "Detailed explained solutions" },
+        { "title": "Multi-device", "desc": "Accessible on desktop, tablet, mobile" }
+      ]
+    },
+    "section5": {
+      "tag": "[05 - CERTIFICATIONS]",
+      "title": "Official",
+      "titleHighlight": "partners",
+      "subtitle": "Negotiated rates through our partnerships, integrated into the training process."
+    },
+    "section6": {
+      "tag": "[06 - EVALUATION]",
+      "title": "Evaluation",
+      "titleHighlight": "system",
+      "items": [
+        { "title": "Integrated quizzes", "desc": "Automatic assessments throughout the course" },
+        { "title": "Long projects", "desc": "Multi-day practical scenarios" },
+        { "title": "Async verification", "desc": "Report and configuration analysis" },
+        { "title": "Online defenses", "desc": "With NEO evaluators or your teams" }
+      ]
+    },
+    "section7": {
+      "tag": "[07 - DEDICATED SPACE]",
+      "title": "Your",
+      "titleHighlight": "space",
+      "subtitle": "A dedicated admin space to manage your teams and track their progress.",
+      "items": ["Multiple admins", "Student management", "Class filters", "Progress reporting"],
+      "coming": "Coming soon: custom branding (white-label)"
+    },
+    "finalCta": {
+      "title": "Let's discuss your",
+      "titleHighlight": "project",
+      "subtitle": "Contact us to discuss your needs and get a custom quote.",
+      "cta": "Request a quote"
+    }
+  },
+  "contact": {
+    "breadcrumb": "Contact",
+    "tag": "[CONTACT]",
+    "title1": "Have a",
+    "titleHighlight1": "question",
+    "title2": "Have a",
+    "titleHighlight2": "project",
+    "subtitle": "We're here to support you in your cybersecurity training project.",
+    "formTitle": "Contact form",
+    "formSubtitle": "Fill out our form and we'll get back to you quickly.",
+    "formCta": "Open form",
+    "email": "[EMAIL]",
+    "address": "[ADDRESS]",
+    "social": "[SOCIAL]"
+  },
+  "formations": {
+    "breadcrumb": "Courses",
+    "tag": "[CATALOG]",
+    "title": "Our",
+    "titleHighlight": "courses",
+    "subtitle": "Courses, certifications and degree programs in cybersecurity. 100% online, at your own pace.",
+    "comingSoon": {
+      "tag": "[UNDER CONSTRUCTION]",
+      "text": "The full catalog is coming soon. Contact us for more information."
+    }
+  },
+  "platform": {
+    "breadcrumb": "Platform",
+    "tag": "[PLATFORM]",
+    "title": "A platform designed for",
+    "titleHighlight": "learning",
+    "title2": "by doing",
+    "subtitle": "Everything you need to master cybersecurity, accessible from your browser.",
+    "features": [
+      { "title": "Video courses", "desc": "HD, chaptered, subtitled. Learn at your pace." },
+      { "title": "On-demand labs", "desc": "VMs generated in 1 click, realistic environments." },
+      { "title": "Auto-grading", "desc": "Ansible verifies your configurations in real-time." },
+      { "title": "Isolated networks", "desc": "Each student has their own secure environment." },
+      { "title": "Quizzes & assessments", "desc": "Integrated into the course to validate your knowledge." },
+      { "title": "Certifications", "desc": "Preparation for official certifications included." },
+      { "title": "Progress tracking", "desc": "Detailed tracking of your progress and statistics." },
+      { "title": "Multi-device", "desc": "Desktop, tablet, mobile - learn anywhere." },
+      { "title": "Support", "desc": "Community, forums and expert guidance." }
+    ],
+    "cta1": "View courses",
+    "cta2": "Request a demo"
+  },
+  "blog": {
+    "breadcrumb": "Blog",
+    "tag": "[BLOG]",
+    "title": "Blog &",
+    "titleHighlight": "Resources",
+    "subtitle": "Cybersecurity news, guides, tutorials and career advice.",
+    "comingSoon": {
+      "tag": "[UNDER CONSTRUCTION]",
+      "title": "Blog coming soon",
+      "text": "We're preparing quality articles on cybersecurity, certifications and career paths."
+    }
+  },
+  "legal": {
+    "mentions": {
+      "breadcrumb": "Legal Notice",
+      "title": "Legal",
+      "titleHighlight": "Notice",
+      "sections": {
+        "editor": {
+          "title": "1. Site Publisher",
+          "content": "NEO Cyber Camp\nParis, France\nEmail: contact@neocc.co\n\n[Additional information to be added: Company registration, capital, etc.]"
+        },
+        "hosting": {
+          "title": "2. Hosting",
+          "content": "The site is hosted by:\n[Hosting information to be added]"
+        },
+        "ip": {
+          "title": "3. Intellectual Property",
+          "content": "All content on this site (texts, images, videos, logos, etc.) is protected by copyright. Any reproduction, even partial, is prohibited without prior authorization."
+        },
+        "data": {
+          "title": "4. Data Protection",
+          "content": "In accordance with the General Data Protection Regulation (GDPR), you have the right to access, rectify and delete your personal data.\n\nTo exercise this right, contact us at: contact@neocc.co"
+        },
+        "cookies": {
+          "title": "5. Cookies",
+          "content": "This site uses cookies to improve user experience and measure audience. For more information, see our privacy policy."
+        }
+      }
+    },
+    "cgv": {
+      "breadcrumb": "Terms of Sale",
+      "title": "Terms of",
+      "titleHighlight": "Sale",
+      "placeholder": "[Full Terms of Sale content to be finalized by legal team]",
+      "sections": {
+        "object": { "title": "Article 1 - Purpose", "content": "These Terms of Sale govern the contractual relationships between NEO Cyber Camp and its customers for the sale of online training and associated services." },
+        "price": { "title": "Article 2 - Prices", "content": "Training prices are indicated in euros excluding taxes. Applicable VAT will be added at the time of order." },
+        "payment": { "title": "Article 3 - Payment Terms", "content": "Payment is made by credit card or bank transfer. Access to training is granted upon receipt of full payment." },
+        "withdrawal": { "title": "Article 4 - Right of Withdrawal", "content": "In accordance with consumer protection laws, the right of withdrawal cannot be exercised for digital content provided on an intangible medium whose execution has begun with the consumer's agreement." },
+        "access": { "title": "Article 5 - Training Access", "content": "Access to training is personal and non-transferable. Sharing login credentials is prohibited. The duration of access is specified for each training." },
+        "liability": { "title": "Article 6 - Liability", "content": "NEO Cyber Camp is committed to providing quality training. However, success in certifications cannot be guaranteed and depends on the learner's personal investment." }
+      }
+    },
+    "cgu": {
+      "breadcrumb": "Terms of Use",
+      "title": "Terms of",
+      "titleHighlight": "Use",
+      "placeholder": "[Full Terms of Use content to be finalized by legal team]",
+      "sections": {
+        "object": { "title": "Article 1 - Purpose", "content": "These Terms of Use define the rules for using the NEO Cyber Camp platform accessible at app.neocc.co." },
+        "access": { "title": "Article 2 - Platform Access", "content": "Access to the platform requires creating a user account. Users agree to provide accurate information and keep it up to date." },
+        "labs": { "title": "Article 3 - Lab Usage", "content": "The virtual environments (labs) provided are intended exclusively for educational purposes. Any malicious use or unauthorized access attempt is strictly prohibited." },
+        "ip": { "title": "Article 4 - Intellectual Property", "content": "Training content (videos, documents, exercises) is protected by copyright. Their reproduction, distribution or modification without authorization is prohibited." },
+        "behavior": { "title": "Article 5 - Conduct", "content": "Users agree to use the platform respectfully and not to disrupt its operation or other users' experience." },
+        "sanctions": { "title": "Article 6 - Sanctions", "content": "Any breach of these Terms of Use may result in suspension or deletion of the user account, without prejudice to any legal proceedings." }
+      }
+    },
+    "privacy": {
+      "breadcrumb": "Privacy Policy",
+      "title": "Privacy",
+      "titleHighlight": "Policy",
+      "lastUpdate": "Last updated: January 2025",
+      "sections": {
+        "collection": {
+          "title": "1. Data Collection",
+          "content": "We collect data necessary for providing our training services: name, email, course progress data."
+        },
+        "usage": {
+          "title": "2. Data Usage",
+          "intro": "Your data is used to:",
+          "items": [
+            "Manage your account and training access",
+            "Track your learning progress",
+            "Inform you of updates (if you have consented)",
+            "Improve our services"
+          ]
+        },
+        "protection": {
+          "title": "3. Data Protection",
+          "content": "Your data is hosted in Europe on secure servers. We apply appropriate security measures to protect your information."
+        },
+        "sharing": {
+          "title": "4. Data Sharing",
+          "intro": "We do not sell your data. It may be shared with:",
+          "items": [
+            "Our certification partners (for exam registration)",
+            "Your employer (if B2B training, with your consent)"
+          ]
+        },
+        "rights": {
+          "title": "5. Your Rights",
+          "content": "Under GDPR, you have the following rights: access, rectification, erasure, portability, objection, restriction of processing.",
+          "contact": "To exercise these rights:"
+        },
+        "cookies": {
+          "title": "6. Cookies",
+          "content": "We use essential cookies for site functionality and analytics cookies (Google Analytics) to understand how our services are used."
+        },
+        "contactTitle": {
+          "title": "7. Contact",
+          "content": "For any questions regarding this privacy policy:"
+        }
+      }
+    }
+  },
+  "common": {
+    "home": "Home",
+    "readyToStart": "Ready to",
+    "start": "start"
+  }
+}

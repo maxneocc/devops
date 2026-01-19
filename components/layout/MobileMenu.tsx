@@ -1,14 +1,35 @@
 'use client';
 
-import { NAV_LINKS } from '@/lib/constants';
+import Link from 'next/link';
+import { EXTERNAL_LINKS } from '@/lib/constants';
+import { type Locale } from '@/lib/i18n';
+import LanguageSwitcher from '@/components/ui/LanguageSwitcher';
 import { motion, AnimatePresence } from 'framer-motion';
 
 interface MobileMenuProps {
   isOpen: boolean;
   onClose: () => void;
+  locale: Locale;
+  dict: {
+    nav: {
+      formations: string;
+      solutions: string;
+      plateforme: string;
+      blog: string;
+      login: string;
+      contact: string;
+    };
+  };
 }
 
-export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
+export default function MobileMenu({ isOpen, onClose, locale, dict }: MobileMenuProps) {
+  const navLinks = [
+    { label: dict.nav.formations, href: `/${locale}/formations` },
+    { label: dict.nav.solutions, href: `/${locale}/solutions` },
+    { label: dict.nav.plateforme, href: `/${locale}/plateforme` },
+    { label: dict.nav.blog, href: `/${locale}/blog` },
+  ];
+
   return (
     <AnimatePresence>
       {isOpen && (
@@ -47,30 +68,42 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
 
             {/* Navigation Links */}
             <nav className="relative p-6 space-y-1">
-              {NAV_LINKS.map((link, index) => (
-                <motion.a
+              {navLinks.map((link, index) => (
+                <motion.div
                   key={link.href}
-                  href={link.href}
-                  onClick={onClose}
                   initial={{ opacity: 0, x: 20 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ delay: 0.1 + index * 0.05 }}
-                  className="block py-4 text-xl text-text-primary hover:text-accent-cyan transition-colors border-b border-cyber-border/50 flex items-center justify-between group"
                 >
-                  <span>{link.label}</span>
-                  <span className="font-mono text-xs text-text-muted group-hover:text-accent-cyan transition-colors">
-                    {String(index + 1).padStart(2, '0')}
-                  </span>
-                </motion.a>
+                  <Link
+                    href={link.href}
+                    onClick={onClose}
+                    className="block py-4 text-xl text-text-primary hover:text-accent-cyan transition-colors border-b border-cyber-border/50 flex items-center justify-between group"
+                  >
+                    <span>{link.label}</span>
+                    <span className="font-mono text-xs text-text-muted group-hover:text-accent-cyan transition-colors">
+                      {String(index + 1).padStart(2, '0')}
+                    </span>
+                  </Link>
+                </motion.div>
               ))}
             </nav>
 
-            {/* Language Selector */}
+            {/* Language Switcher */}
             <div className="relative px-6 pt-4">
-              <select className="w-full bg-cyber-deep text-text-primary border border-cyber-border px-4 py-3 font-mono focus:outline-none focus:border-accent-cyan/50">
-                <option value="en">English</option>
-                <option value="fr">Français</option>
-              </select>
+              <LanguageSwitcher currentLocale={locale} variant="inline" />
+            </div>
+
+            {/* Login Link */}
+            <div className="relative px-6 pt-4">
+              <a
+                href={EXTERNAL_LINKS.app}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block w-full py-3 text-center text-text-secondary hover:text-accent-cyan transition-colors font-mono border border-cyber-border"
+              >
+                {dict.nav.login} &rarr;
+              </a>
             </div>
 
             {/* CTA Button */}
@@ -78,15 +111,15 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4 }}
-              className="relative px-6 pt-6"
+              className="relative px-6 pt-4"
             >
-              <a
-                href="#contact"
+              <Link
+                href={`/${locale}/contact`}
                 onClick={onClose}
                 className="block w-full py-4 bg-accent-cyan text-cyber-deep text-center font-mono uppercase tracking-wider hover:shadow-glow-cyan transition-shadow"
               >
-                Get Started
-              </a>
+                {dict.nav.contact}
+              </Link>
             </motion.div>
 
             {/* Terminal decoration */}
