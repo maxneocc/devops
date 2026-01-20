@@ -3,9 +3,36 @@
 import Container from '@/components/ui/Container';
 import Button from '@/components/ui/Button';
 import GradientOrb from '@/components/ui/GradientOrb';
+import { type Locale } from '@/lib/i18n';
 import { motion } from 'framer-motion';
 
-export default function Hero() {
+interface HeroProps {
+  locale: Locale;
+  dict: {
+    tagline: string;
+    title1: string;
+    title2: string;
+    title3: string;
+    subtitle: string;
+    subtitle2: string;
+    cta_individual: string;
+    cta_organization: string;
+    stats: {
+      labs: string;
+      courses: string;
+      certifications: string;
+    };
+    scroll: string;
+  };
+}
+
+export default function Hero({ locale, dict }: HeroProps) {
+  const stats = [
+    { value: '24/7', label: dict.stats.labs },
+    { value: '100+', label: dict.stats.courses },
+    { value: '6', label: dict.stats.certifications },
+  ];
+
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden">
       {/* Background layers */}
@@ -37,7 +64,7 @@ export default function Hero() {
             className="font-mono text-accent-green text-sm mb-6 flex items-center gap-2"
           >
             <span className="w-2 h-2 bg-accent-green animate-pulse" />
-            <span>&gt; initializing_career.exe</span>
+            <span>{dict.tagline}</span>
           </motion.div>
 
           {/* Main headline */}
@@ -47,11 +74,10 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
             className="font-display text-hero text-text-primary mb-6 uppercase tracking-wide"
           >
-            Become a{' '}
-            <span className="gradient-text">cyber</span>
+            {dict.title1}{' '}
+            <span className="gradient-text">{dict.title2}</span>
             <br />
-            <span className="gradient-text-warm">security</span>{' '}
-            professional
+            <span className="gradient-text-warm">{dict.title3}</span>
           </motion.h1>
 
           {/* Subtext */}
@@ -61,23 +87,24 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
             className="text-lg md:text-xl text-text-secondary mb-10 max-w-2xl leading-relaxed"
           >
-            An all-in-one platform to learn and practice, available 24/7 with just an
-            internet connection. Your direct path to a cybersecurity career starts here.
+            {dict.subtitle}
+            <br />
+            {dict.subtitle2}
           </motion.p>
 
-          {/* CTAs */}
+          {/* Double CTAs */}
           <motion.div
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
             className="flex flex-col sm:flex-row items-start gap-4"
           >
-            <Button variant="primary" size="lg" href="#contact">
+            <Button variant="primary" size="lg" href={`/${locale}/formations`}>
               <span className="mr-2">&gt;</span>
-              Keep me in touch
+              {dict.cta_individual}
             </Button>
-            <Button variant="secondary" size="lg" href="#features">
-              Explore features
+            <Button variant="secondary" size="lg" href={`/${locale}/solutions`}>
+              {dict.cta_organization}
             </Button>
           </motion.div>
 
@@ -88,11 +115,7 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.5, ease: [0.16, 1, 0.3, 1] }}
             className="mt-16 pt-8 border-t border-cyber-border flex flex-wrap gap-8 md:gap-16"
           >
-            {[
-              { value: '24/7', label: 'Lab Access' },
-              { value: '100+', label: 'Courses' },
-              { value: '10K+', label: 'Students' },
-            ].map((stat, index) => (
+            {stats.map((stat) => (
               <div key={stat.label} className="group">
                 <div className="font-display text-4xl md:text-5xl text-accent-cyan group-hover:text-accent-green transition-colors">
                   {stat.value}
@@ -118,7 +141,7 @@ export default function Hero() {
           transition={{ duration: 1.5, repeat: Infinity }}
           className="flex flex-col items-center gap-2"
         >
-          <span className="font-mono text-xs text-text-muted">SCROLL</span>
+          <span className="font-mono text-xs text-text-muted">{dict.scroll}</span>
           <div className="w-[1px] h-8 bg-gradient-to-b from-accent-cyan to-transparent" />
         </motion.div>
       </motion.div>

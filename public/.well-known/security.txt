@@ -1,0 +1,11 @@
+# Security Policy for NEO Cyber Camp
+# https://securitytxt.org/
+
+Contact: mailto:security@neocc.co
+Expires: 2027-01-01T00:00:00.000Z
+Preferred-Languages: en, fr
+Canonical: https://neocc.co/.well-known/security.txt
+Policy: https://neocc.co/confidentialite
+
+# We appreciate responsible disclosure of security vulnerabilities.
+# Please report any security issues to security@neocc.co

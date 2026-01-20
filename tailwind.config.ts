@@ -8,18 +8,22 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // Cyber terminal aesthetic
+        // Boosted Brand Colors - same hues, more vibrant
         'cyber': {
           'deep': '#0a0a0f',
           'surface': '#12121a',
           'elevated': '#1a1a24',
           'border': '#2a2a3a',
+          'rhino': '#283059',
         },
         'accent': {
-          'cyan': '#00f0ff',
-          'green': '#39ff14',
-          'warm': '#ff6b35',
-          'cyan-muted': '#00f0ff80',
+          // Boosted brand cyan - vivid mint
+          'cyan': '#00E5C0',
+          // Boosted brand green - electric mint
+          'green': '#00FF94',
+          // Boosted brand purple - vivid purple
+          'warm': '#7B7FE8',
+          'cyan-muted': '#00E5C080',
         },
         'text': {
           'primary': '#e8e8e8',
@@ -71,18 +75,19 @@ const config: Config = {
         },
       },
       backgroundImage: {
-        'grid-pattern': `linear-gradient(to right, rgba(0,240,255,0.03) 1px, transparent 1px),
-                         linear-gradient(to bottom, rgba(0,240,255,0.03) 1px, transparent 1px)`,
+        'grid-pattern': `linear-gradient(to right, rgba(0,229,192,0.03) 1px, transparent 1px),
+                         linear-gradient(to bottom, rgba(0,229,192,0.03) 1px, transparent 1px)`,
         'radial-glow': 'radial-gradient(ellipse at center, var(--tw-gradient-stops))',
-        'gradient-cyber': 'linear-gradient(135deg, #00f0ff 0%, #39ff14 50%, #00f0ff 100%)',
+        'gradient-cyber': 'linear-gradient(135deg, #00E5C0 0%, #00FF94 50%, #00E5C0 100%)',
       },
       backgroundSize: {
         'grid': '60px 60px',
       },
       boxShadow: {
-        'glow-cyan': '0 0 40px rgba(0, 240, 255, 0.3)',
-        'glow-green': '0 0 40px rgba(57, 255, 20, 0.3)',
-        'glow-warm': '0 0 40px rgba(255, 107, 53, 0.3)',
+        'glow-cyan': '0 0 40px rgba(0, 229, 192, 0.3)',
+        'glow-green': '0 0 40px rgba(0, 255, 148, 0.3)',
+        'glow-warm': '0 0 40px rgba(123, 127, 232, 0.3)',
+        'glow-purple': '0 0 40px rgba(123, 127, 232, 0.3)',
       },
     },
   },
