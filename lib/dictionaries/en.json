@@ -244,9 +244,10 @@
     "title": "Our",
     "titleHighlight": "courses",
     "subtitle": "Courses, certifications and degree programs in cybersecurity. 100% online, at your own pace.",
+    "viewDetails": "View course",
     "comingSoon": {
-      "tag": "[UNDER CONSTRUCTION]",
-      "text": "The full catalog is coming soon. Contact us for more information."
+      "tag": "[COMING SOON]",
+      "text": "More courses coming soon. Contact us for more information."
     }
   },
   "platform": {
@@ -390,5 +391,39 @@
     "home": "Home",
     "readyToStart": "Ready to",
     "start": "start"
+  },
+  "formationDetail": {
+    "duration": "Duration",
+    "level": "Level",
+    "modality": "Modality",
+    "certification": "Certification",
+    "price": "Price",
+    "certificationIncluded": "Certification included in the price",
+    "cta": {
+      "contact": "Contact us",
+      "demo": "Request a demo"
+    },
+    "program": {
+      "expandAll": "Expand all",
+      "collapseAll": "Collapse all",
+      "topics": "topics"
+    },
+    "sections": {
+      "presentation": "Overview",
+      "objectives": "Learning objectives",
+      "targetAudience": "Target audience",
+      "program": "Program",
+      "pedagogy": "Teaching methods",
+      "evaluation": "Assessment methods",
+      "prerequisites": "Prerequisites",
+      "equipment": "Required equipment",
+      "access": "Access",
+      "highlights": "Key benefits"
+    },
+    "finalCta": {
+      "title": "Ready to train in",
+      "subtitle": "Contact us for more information or to enroll in this course.",
+      "backToList": "View all courses"
+    }
   }
 }

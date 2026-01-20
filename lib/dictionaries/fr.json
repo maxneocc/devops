@@ -244,9 +244,10 @@
     "title": "Nos",
     "titleHighlight": "formations",
     "subtitle": "Cours, certifications et parcours diplômants en cybersécurité. 100% en ligne, à votre rythme.",
+    "viewDetails": "Voir la formation",
     "comingSoon": {
-      "tag": "[EN CONSTRUCTION]",
-      "text": "Le catalogue complet arrive bientôt. Contactez-nous pour plus d'informations."
+      "tag": "[À VENIR]",
+      "text": "D'autres formations arrivent bientôt. Contactez-nous pour plus d'informations."
     }
   },
   "platform": {
@@ -390,5 +391,39 @@
     "home": "Accueil",
     "readyToStart": "Prêt à",
     "start": "commencer"
+  },
+  "formationDetail": {
+    "duration": "Durée",
+    "level": "Niveau",
+    "modality": "Modalité",
+    "certification": "Certification",
+    "price": "Tarif",
+    "certificationIncluded": "Certification incluse dans le tarif",
+    "cta": {
+      "contact": "Nous contacter",
+      "demo": "Demander une démo"
+    },
+    "program": {
+      "expandAll": "Tout déplier",
+      "collapseAll": "Tout replier",
+      "topics": "sujets"
+    },
+    "sections": {
+      "presentation": "Présentation",
+      "objectives": "Objectifs pédagogiques",
+      "targetAudience": "Public cible",
+      "program": "Programme",
+      "pedagogy": "Moyens pédagogiques",
+      "evaluation": "Modalités d'évaluation",
+      "prerequisites": "Prérequis",
+      "equipment": "Équipement requis",
+      "access": "Accès",
+      "highlights": "Points forts"
+    },
+    "finalCta": {
+      "title": "Prêt à vous former à",
+      "subtitle": "Contactez-nous pour plus d'informations ou pour vous inscrire à cette formation.",
+      "backToList": "Voir toutes les formations"
+    }
   }
 }
